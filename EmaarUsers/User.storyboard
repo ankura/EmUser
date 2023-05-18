@@ -55,21 +55,20 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Orm-Tr-aKK">
                                                     <rect key="frame" x="20" y="15" width="50" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="XEo-ue-jkj"/>
-                                                        <constraint firstAttribute="width" constant="50" id="dV8-J8-9aI"/>
+                                                        <constraint firstAttribute="height" constant="50" id="Hiy-TO-bIh"/>
+                                                        <constraint firstAttribute="width" constant="50" id="xja-Rj-YnN"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Orm-Tr-aKK" firstAttribute="centerY" secondItem="uGK-JC-awK" secondAttribute="centerY" id="5gs-Gi-GfN"/>
                                                 <constraint firstItem="rpx-e0-W7k" firstAttribute="top" secondItem="Ibg-UI-iB7" secondAttribute="bottom" constant="2" id="CZy-f9-mnh"/>
                                                 <constraint firstItem="Ibg-UI-iB7" firstAttribute="leading" secondItem="Orm-Tr-aKK" secondAttribute="trailing" constant="10" id="DEp-xX-Jwh"/>
                                                 <constraint firstItem="rpx-e0-W7k" firstAttribute="leading" secondItem="Orm-Tr-aKK" secondAttribute="trailing" constant="10" id="YvY-GR-Gip"/>
-                                                <constraint firstItem="Orm-Tr-aKK" firstAttribute="top" secondItem="uGK-JC-awK" secondAttribute="topMargin" constant="4" id="ZQK-b7-Lja"/>
                                                 <constraint firstItem="KBM-lo-9P6" firstAttribute="top" secondItem="uGK-JC-awK" secondAttribute="topMargin" constant="5" id="czz-8M-6Yd"/>
                                                 <constraint firstItem="MhF-Xk-n3O" firstAttribute="top" secondItem="uGK-JC-awK" secondAttribute="top" constant="5" id="ioH-is-IZJ"/>
                                                 <constraint firstItem="Orm-Tr-aKK" firstAttribute="leading" secondItem="uGK-JC-awK" secondAttribute="leadingMargin" id="n9t-fx-kIU"/>
                                                 <constraint firstItem="KBM-lo-9P6" firstAttribute="leading" secondItem="Orm-Tr-aKK" secondAttribute="trailing" constant="10" id="ody-46-Cb4"/>
+                                                <constraint firstItem="Orm-Tr-aKK" firstAttribute="top" secondItem="uGK-JC-awK" secondAttribute="topMargin" constant="4" id="pRg-Jm-m83"/>
                                                 <constraint firstItem="Ibg-UI-iB7" firstAttribute="top" secondItem="KBM-lo-9P6" secondAttribute="bottom" constant="2" id="sO8-mK-5uf"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="MhF-Xk-n3O" secondAttribute="trailing" constant="5" id="zyL-fO-6sR"/>
                                             </constraints>

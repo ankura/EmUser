@@ -118,11 +118,13 @@ typedef NS_ENUM(NSUInteger, TableSection) {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"User" bundle:nil];
-    UserDetailViewController *detailVC = [storyboard instantiateViewControllerWithIdentifier:@"UserDetailVC"];
-    UserModel *user = [self.userListViewModel userAt:indexPath.row];
-    [detailVC setUserUuid:user.uuid];
-    [self.navigationController pushViewController:detailVC animated:YES];
+    if(self.userListViewModel.numberOfUsers > indexPath.row) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"User" bundle:nil];
+        UserDetailViewController *detailVC = [storyboard instantiateViewControllerWithIdentifier:@"UserDetailVC"];
+        UserModel *user = [self.userListViewModel userAt:indexPath.row];
+        [detailVC setUserUuid:user.uuid];
+        [self.navigationController pushViewController:detailVC animated:YES];
+    }
     
     
 }
